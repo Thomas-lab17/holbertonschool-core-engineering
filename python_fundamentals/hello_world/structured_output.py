@@ -5,4 +5,3 @@ if x == 1:
     print("Version: 3")
     print("Pi approx: 3.14")
     print("Computation valid: True")
-    
