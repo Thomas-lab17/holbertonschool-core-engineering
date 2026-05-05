@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
-for i in range(97, 123):
+i = 97
+while i < 123:
     if chr(i) not in "eq":
         print(chr(i), end='')
+    i += 1
 print()
