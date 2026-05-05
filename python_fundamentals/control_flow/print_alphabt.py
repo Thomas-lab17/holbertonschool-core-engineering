@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-for letter in "abcdefghijklmnopqrstuvwxyz":
-    if letter not in "eq":
-        print(letter, end='')
+for i in range(97, 123):
+    if chr(i) not in "eq":
+        print(chr(i), end='')
 print()
