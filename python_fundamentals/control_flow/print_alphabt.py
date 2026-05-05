@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
+alphabet = list(range(97, 123))
+alphabt = ""
 
-for i in range(97, 123):
-    if i != 101 and i != 113:
-        print("{}".format(chr(i)), end="")
-print("\n")
+for ascii in alphabet:
+    if ascii != 101 and ascii != 113:
+        letter = chr(ascii)
+        alphabt += letter
+
+print("{}".format(alphabt), end="")
