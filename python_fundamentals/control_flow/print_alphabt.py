@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
-alphabet = "abcdefghijklmnopqrstuvwxyz"
-
-for letter in alphabet:
-    if letter not in ('e', 'q'):
-        print(letter)
+for letter in "abcdefghijklmnopqrstuvwxyz":
+    if letter not in "eq":
+        print(letter, end='')
+print()
