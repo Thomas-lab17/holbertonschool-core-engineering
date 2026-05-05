@@ -2,6 +2,7 @@
 
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
-for letter in 'abcdefghijklmnopqrstuvwxyz':
+for letter in alphabet:
     if letter not in ('e', 'q'):
         print(letter, end='')
+print()
