@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-for letter in "abcdefghijklmnopqrstuvwxyz":
-    if letter not in "eq":
-        print("{}".format(letter), end='')
-print()
+for i in range(97, 123):
+    if i != 101 and i != 113:
+        print(chr(i), end='')
