@@ -1,3 +1,6 @@
 #!/usr/bin/env python3
 
-print("abcdefghijklmnopqrstuvwxyz".replace("e", "").replace("q", ""))
+for letter in "abcdefghijklmnopqrstuvwxyz":
+    if letter not in "eq":
+        print(letter, end='')
+print()
