@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
 
-for i in range(99):
+hexa = range(99)
+
+for i in hexa:
     print(f"{i} = 0x{i:x}")
