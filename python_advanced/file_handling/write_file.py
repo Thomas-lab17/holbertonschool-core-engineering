@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Defines a write_file function."""
 
 
 def write_file(filename="", text=""):
