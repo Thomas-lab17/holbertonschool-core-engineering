@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Defines an append_write function."""
 
+
 def append_write(filename="", text=""):
     """Appends a string to a text file (UTF8) and returns the
     number of characters added
